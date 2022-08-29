@@ -1,0 +1,619 @@
+*{
+	font-family: 'Roboto';
+}
+.question{
+	width: 200px;	
+/* display: inline-block; */
+position: absolute;
+}
+.quest img{
+	width: 70%;
+	height: 70%;
+	
+}
+.container{
+	max-width: 1200px;
+	margin:0 auto;
+
+}
+.logout{
+	color: #0061A3;
+}
+.main_smart{
+	display: flex;
+	
+}
+.smart{
+	margin-right: 6%;
+}
+.smart2 p{
+	white-space: nowrap;
+}
+.wrapper_header{
+	display: flex;
+	justify-content: space-between;
+}
+.burger_menu{
+	display: none;
+}
+.avatar2{
+	display: none;
+}
+@media (max-width:375px) {
+	.container {
+		max-width: none;
+		margin:0 auto
+	}
+	.wrapper_header{
+		width: 360px;
+	}
+	.avatar1{
+		display: none;
+	}
+	.avatar2{
+		display: block;
+		margin-right: 2%;
+	}
+  .burger_menu{
+		display: block;
+		width: 20px;
+		height: 14px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		
+	}
+	.burger_menu button{
+	width: 20px;
+		height: 1px;
+		background-color: #F30000;
+		border:none;
+		border-radius: 8px;
+	}
+		
+	
+	.question {
+		display: none;
+	}
+
+	
+
+	.smart2 {
+		width: 375px;
+		display: flex;
+		justify-content: space-between;
+
+	}
+.main_smart{
+	max-width: 335px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+	.smart {
+		margin: 0 auto;
+		
+	}
+	.smart img{
+		width: 182px;
+		height: 44px;
+	}
+}
+/* /////////////////MENU */
+.menu{
+	height: 34px;
+	display: flex;
+	justify-content: space-between;
+	background-color: red;
+	border-radius: 8px;
+}
+.red_menu{
+	
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.blue_menu{
+	height: 34px;
+		background: #0061A3;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-radius: 8px;	
+		/* border: solid 1px #ffffff; 	 */
+}
+.red_menu span{
+	
+	
+	display: flex;
+	white-space: nowrap;
+	margin-left: 2%;
+	
+}
+.red_menu div{
+	margin-left: 2%;
+}
+.menu span{
+	font-weight: 700;
+		font-size: 16px;
+	color: white;
+}
+
+/* /////////////////buttons */
+
+.main_card{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.card{
+	max-width: 380px;
+	max-height: 80px;
+	border: 1px solid #E0E0E0;
+		border-radius: 8px;
+		display: flex;
+		
+}
+.card_text{
+	display: flex;
+	flex-direction: column;
+}
+.card_text1{
+	display: flex;
+	justify-content: space-between;
+}
+.card_text1 span{
+	font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+}
+.card_arrow{
+	display: flex;
+	align-items: center;
+}
+.card_text2 p{
+	
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 120%;
+		color: #5F5F5F;
+}
+@media (max-width:375px){
+	.baner img{
+		max-width: 375px;
+	}
+	.buttons{
+		width: 375px;
+		margin:0 auto;
+	}
+	.main_card{
+		display: flex;
+		flex-wrap: wrap;
+		margin:30px auto 0 4%;
+	}
+	.card{
+		width: 343px;
+		height: 150px;	
+		margin-bottom: 20px;
+	}
+	.menu{
+		display: none;
+	}
+}
+/* /////////////////lotery */
+.lotery{
+	margin-top: 6%;
+	font-weight: 500;
+		font-size: 24px;
+		line-height: 36px;
+		color: black;
+}
+.lotery_info{
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+.lotery_card{
+	/* max-width: 380px;
+	/* min-width: 344px; */
+	max-height: 150px; 
+	width: 380px;
+	border: 1px solid #E0E0E0;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: column;
+}
+.lotery_pic{
+	display: flex;
+	justify-content: space-around;
+}
+.lotery_million{
+	display: flex;
+	flex-direction: column;
+}
+.green_million{
+	font-weight: 700;
+		font-size: 26px;
+		line-height: 22px;
+		color: #13902A;
+}
+.lotery_button{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #0061A3;
+}
+.lotery_clock img{
+	width: 18px;
+	height: 18px;
+	display: flex;
+	
+}
+.lotery_clock p{
+	color: #ffffff;
+}
+
+.lotery_clock{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.yellow_btn{
+	background: #F7D300;
+		border-radius: 8px;
+		border:0px;
+max-width: 171px;
+min-width: 144px;
+max-height: 36px;
+min-height: 34px;
+margin-left: 16px;
+font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+
+}
+@media (max-width:375px){
+	.lotery{
+		font-weight: 500;
+			font-size: 18px;
+	}
+	.lotery_info{
+display: flex;
+flex-wrap: wrap;
+margin-left: 4%;
+	}
+	.lotery_card{
+		margin-bottom: 4%;
+	}
+}
+/* /////////////////////play lotery */
+.play_card_main{
+margin-top: 15px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.play_lot{
+	margin: 4% auto;
+	
+}
+.blue{
+	font-weight: 500;
+		font-size: 16px;
+		line-height: 18px;
+		color: #0061A3;
+}
+.red_btn{
+	width: 100%;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+	height: 45px;
+background: #F30000;
+border: 0px;
+	border-radius: 8px;
+	color: #ffffff;
+	
+}
+.play_lot_btn{
+		min-width: 343px;
+			max-width: 1200px;
+display: flex;
+	justify-content: center;
+}
+.play_card{
+	/* max-width: 208px; */
+	width: 208px;
+	max-height: 270px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #E0E0E0;
+		border-radius: 8px;
+		margin-right: 15px;
+		margin-bottom: 15px;
+}	
+.play_card div{
+	margin-bottom: 2%;
+}
+.million_blue{
+	font-weight: 700;
+		font-size: 20px;
+		line-height: 22px;
+}
+.more{
+	margin: 15px auto;
+	display: flex;
+	justify-content: flex-end;
+}
+@media(max-width:375px){
+	.play_lot_btn{
+		margin-left: 4%;
+	}
+	.play_lot_btn button{
+		font-weight: 700;
+			font-size: 16px;
+	}
+	.play_card_main{
+		width: 345px;
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 4%;
+	}
+	.play_card{
+		width: 155px;
+		height: 230px;
+		margin: 7px;
+
+	}
+	.lotery_yellow_btn button{
+margin:0 auto;
+
+	}
+	.second{
+		display: none;
+	}
+}
+/* ///////////////winner */
+.winner_logo{
+	display: flex;
+	justify-content: center;
+}
+.sorry{
+	display: flex;
+	justify-content: flex-start;
+}
+.winner_logo span{
+font-weight: 500;
+	font-size: 28px;
+	line-height: 36px;
+}
+.billion{
+	color: #0061A3;
+}
+.winner_main{
+	display: flex;
+	justify-content: space-between;
+}
+.winner_info{
+	margin-top: 2%;
+	border: 1px solid #E0E0E0;
+		border-radius: 8px;
+}
+.winner_wrapper{
+	width: 100%;
+	max-width: 775px;
+	height: 461px;
+	
+}
+.winner_first{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.winner_dad{
+	display: flex;
+	justify-content: space-evenly;
+}
+.winner_second{
+	width: 232px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.read{
+	color: #0061A3;
+}
+.big_word{
+	font-weight: 500;
+		font-size: 26px;
+		line-height: 120%;
+}
+.total_prize{
+	height: 98px;
+	display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		border: 1px solid #E0E0E0;
+			border-radius: 8px;
+}
+.winner_prize div{
+	margin-bottom: 3%;
+}
+
+.winner_prize{
+	max-width: 380px;
+	width: 100%;
+}
+@media (max-width:375px){
+	.winner_main{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	
+	}
+	.winner_first_dad img{
+		width: 296px;
+		height: 171px;
+	}
+	.winner_info{
+		width: 343px;
+		height: 474px;
+		margin-left: 5%;
+	}
+	.winner_logo span{
+font-weight: 500;
+	font-size: 27px;
+	}
+	.winner_dad{
+		display: flex;
+		flex-direction: column;
+	}
+	.winner_wrapper{
+		height: 504px;
+	}
+	.winner_second{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		width: 340px;
+		height: 196px;
+	}
+	.winner_second span{
+		width: 319px;
+	}
+	.winner_prize{
+		margin-top: 12%;
+		margin-left: 2%	;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.red_btn{
+		
+		width: 100%;
+	}
+		.total_prize {
+			width: 343px;
+		}
+				.total_prize_btn {
+					width: 343px;
+				}
+	.total_prize_img{
+		width: 343px;
+	}
+	.left_btn{
+		margin-left: 5%;
+	}
+}
+/* ////////////////////////footer */
+.footer_first{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 8%;
+	
+		
+		
+		
+}
+.footer_second{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.section{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	max-width: 250px;
+	width: 100%;
+}
+.section span{
+	 margin:3px;
+	font-weight: 400;
+		font-size: 16px;
+		line-height: 21px;
+}
+.section h5{
+	font-weight: 700;
+		font-size: 16px;
+		line-height: 21px;
+}
+.payment{
+	margin-top: 6%;
+}
+.footer{
+	padding-top:5% ;
+	background-image:url(/images/star.png);
+	background-size:100% 40%;
+	background-repeat: no-repeat;
+}
+.links_none{
+	display: none;
+}
+.second_soxi{
+	display: none;
+}
+.links{
+	display:flex ;
+	flex-direction: column;
+}
+@media (max-width:375px){
+	.footer{
+		width: 375px;
+		background-size: 100% 14%;
+	}
+.section{
+	max-width: none;
+	width: 375px;
+}
+	.footer_second{
+		display: flex;
+		flex-direction: column;
+	}
+	.links{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		
+		height: 170px;
+	}
+	.contact_us{
+		padding-bottom: 15px;
+	}
+	.links h5{
+		margin: 0;
+	}
+	.links_none{
+		display: block;
+	}
+	.payment{
+		display: inline-block;
+		max-width: 140px;
+	}
+		.payment2 {
+			margin-top: 6%;
+			display: inline-block;
+			max-width: 140px;
+			display: flex;
+			flex-direction: column;
+		}
+	.foot_three{
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+	.first_soxi{
+		display: none;
+	}
+	.second_soxi{
+		display: block;
+	}
+}
+/*  */
